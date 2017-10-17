@@ -1,6 +1,6 @@
 # Presentation on Lombok
 
-Lombok aims to reduce boilerplate and maintenance of this boilerplate in Java code.  
+[Lombok](https://projectlombok.org/) aims to reduce boilerplate and maintenance of this boilerplate in Java code.  
 
 This repo is a quick intro to Lombok, its usages and its shortcomings.
 
