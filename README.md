@@ -4,6 +4,8 @@
 
 This repo is a quick intro to Lombok, its usages and its shortcomings.
 
+View this presentation online at: https://tomsquest.github.io/presentation-lombok/
+
 ## Lombok
 
 > Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
