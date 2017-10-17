@@ -87,10 +87,24 @@ p.toString()
 new Point(1.2).equals( new Point(3,4) ) // + hashcode
 ```
 --
+### Setup
+
+Maven, Gradle, And, Kobalt...
+
+```xml
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.16.18</version>
+    <scope>provided</scope>
+</dependency>
+```
+
+Required IDE plugins for Intellij, Eclipse, Netbeans...
+--
 ### Delombok
 
 ![](delombok.png)
-
 --
 ### Some **stable** features
 

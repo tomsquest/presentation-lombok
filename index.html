@@ -707,11 +707,27 @@ p.toString()
     </section>
 </div>
 <div class="slide hidden" id="slide-6">
+    <section class="slide-content"><h3 id="setup">Setup</h3>
+        <p>Maven, Gradle, And, Kobalt...</p>
+        <pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.projectlombok<span class="hljs-tag">&lt;/<span
+                    class="hljs-name">groupId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>lombok<span
+                    class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>1.16.18<span class="hljs-tag">&lt;/<span
+                    class="hljs-name">version</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">scope</span>&gt;</span>provided<span class="hljs-tag">&lt;/<span
+                    class="hljs-name">scope</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span></code></pre>
+        <p>Required IDE plugins for Intellij, Eclipse, Netbeans...</p>
+    </section>
+</div>
+<div class="slide hidden" id="slide-7">
     <section class="slide-content"><h3 id="delombok">Delombok</h3>
         <p><img src="delombok.png" alt=""></p>
     </section>
 </div>
-<div class="slide hidden" id="slide-7">
+<div class="slide hidden" id="slide-8">
     <section class="slide-content"><h3 id="some-stable-features">Some <strong>stable</strong> features</h3>
         <ul>
             <li><code>@Log</code>: declare a logger</li>
@@ -725,11 +741,11 @@ p.toString()
         </ul>
     </section>
 </div>
-<div class="slide hidden" id="slide-8">
+<div class="slide hidden" id="slide-9">
     <section class="slide-content"><h1 id="some-experimental-features">Some Experimental features</h1>
     </section>
 </div>
-<div class="slide hidden" id="slide-9">
+<div class="slide hidden" id="slide-10">
     <section class="slide-content"><h3 id="-accessors">@Accessors</h3>
         <p>Fluent API for getters and setters, return <code>this</code> instead of <code>void</code> in setters</p>
         <pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> Line <span
@@ -743,7 +759,7 @@ line
   .name(<span class="hljs-string">"FOO"</span>)</code></pre>
     </section>
 </div>
-<div class="slide hidden" id="slide-10">
+<div class="slide hidden" id="slide-11">
     <section class="slide-content"><h3 id="-wither">@Wither</h3>
         <p>Immutable &#39;setters&#39; - methods that create a clone but with one changed field</p>
         <pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> Line <span
@@ -755,7 +771,7 @@ line
 Line line2 = line1.withCountry(FR)</code></pre>
     </section>
 </div>
-<div class="slide hidden" id="slide-11">
+<div class="slide hidden" id="slide-12">
     <section class="slide-content"><h3 id="caveats">Caveats</h3>
         <ul>
             <li>IDE Plugin needed</li>
@@ -766,7 +782,7 @@ Line line2 = line1.withCountry(FR)</code></pre>
         <p><img src="github.png" alt=""></p>
     </section>
 </div>
-<div class="slide hidden author-slide" id="slide-12">
+<div class="slide hidden author-slide" id="slide-13">
     <section class="slide-content">
         <div class="author">
             <h1 class="name">Thomas Queste</h1>
